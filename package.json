@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-devops-demo",
+  "version": "1.0.0",
+  "description": "A DevOps demo using Node.js to show how to implement DevOps easily with IBM Cloud",
+  "author": {
+    "name": "Victor Kazuyuki Shinya",
+    "email": "contato@victorshinya.com.br",
+    "url": "http://victorshinya.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorshinya/nodejs-devops-demo"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'No test implemented'"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.5.1"
+  }
+}

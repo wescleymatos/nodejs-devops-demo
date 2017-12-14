@@ -12,9 +12,11 @@ const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res, next) => {
-    res.send('Nodejs DevOps Demo');
+    res.json('Nodejs DevOps Demo');
 });
 
 app.listen(port, host, () => {
     console.log(`Nodejs DevOps Demo is up and running at ${host}:${port}`);
 });
+
+module.exports = app;

@@ -15,7 +15,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo 'No test implemented'"
+    "test": "istanbul cover mocha"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1"
   },
   "engines": {

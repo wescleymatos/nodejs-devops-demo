@@ -15,7 +15,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "istanbul cover mocha"
+    "test": "mocha --exit"
   },
   "dependencies": {
     "dotenv": "^4.0.0",

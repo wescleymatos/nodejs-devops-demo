@@ -15,7 +15,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "./node_modules/mocha/bin/mocha --exit"
+    "test": "node ./node_modules/mocha/bin/mocha --recursive --exit"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
@@ -28,7 +28,7 @@
     "mocha": "^4.0.1"
   },
   "engines": {
-    "node": "9.2.0",
-    "npm": "5.5.1"
+    "node": "9.8.0",
+    "npm": "5.6.0"
   }
 }

@@ -1,8 +1,8 @@
-let server = require('../server');
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-let assert = chai.assert;
-let should = chai.should();
+const server = require('../server');
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const assert = chai.assert;
+const should = chai.should();
 
 chai.use(chaiHttp);
 // Parent block

@@ -19,6 +19,9 @@ npm config delete prefix \
   && npm -v
 # Install all node_modules and Angular CLI dependencies
 npm install
+# Archive node_modules folder
+tar -czf node_modules.tar.gz node_modules
+rm -rf node_modules 
 ```
 
 ## Run Unit Test & Integration Test
@@ -38,6 +41,8 @@ npm config delete prefix \
   && nvm use default \
   && node -v \
   && npm -v
+# Unarchive node_modules
+tar -xzf node_modules.tar.gz
 # Run Mocha & Chai test
 npm test
 ```

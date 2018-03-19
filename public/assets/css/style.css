@@ -1,0 +1,41 @@
+head, body {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    font-family: 'Limelight', cursive;
+}
+
+.body-text {
+    width: 100%;
+    text-align: center;
+}
+
+.body-text .inner {
+    margin: 6rem 2rem;
+}
+
+.body-text h1 {
+    font-size: 3rem;
+}
+
+.body-text p {
+    font-size: 1.5rem;
+}
+
+.center {
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.middle {
+    display: table-cell;
+}
+
+.middle img {
+    width: 30%;
+    height: auto;
+    padding: 0% 5%;
+}

@@ -41,3 +41,10 @@ Após criar a sua conta, segue abaixo passo a passo o que você deve fazer, para
 4. Renomeie o serviço (Este item é opcional) e clique no botão "Criar"
 
 Pronto! Você já criou um serviço de esteiras. Bem simples!
+
+
+## Configurando a esteira com a sua apliçacão
+
+Gravei uma live no [Quarta Tech](https://www.facebook.com/pg/IBMGEP/videos/) explicando como criar uma esteira do zero, utilizando esta demo. Dê uma olhada no vídeo abaixo:
+
+[![O que é DevOps e como utilizar no dia a dia](https://img.youtube.com/vi/5C4zA2WV9X0/0.jpg)](https://www.youtube.com/watch?v=5C4zA2WV9X0)

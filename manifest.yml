@@ -3,7 +3,7 @@ applications:
     memory: 128M
     instances: 1
     domain: mybluemix.net
-    name: nodejs-devops-demo
-    host: nodejs-devops-demo
+    name: api-connect-node
+    host: api-connect-node
     disk_quota: 1024M
     buildpack: https://github.com/cloudfoundry/nodejs-buildpack

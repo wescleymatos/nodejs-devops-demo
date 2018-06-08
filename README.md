@@ -1,4 +1,4 @@
-# Node.js DevOps Demo
+# Node.js DevOps Demo.
 
 Esta é uma demo inicial de DevOps para criação de "esteiras". Cada passo dentro dessa esteira é uma etapa de um ciclo que pode envolver, build do projeto (ex: Java, Go), testes de unidade, testes de integração, teste de aceitação, deploy da sua app para a cloud e, todo e qualquer outro passo que pode acontecer no seu processo.
 
